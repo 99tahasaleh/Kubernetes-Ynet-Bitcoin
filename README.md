@@ -61,8 +61,8 @@ Access from browser:
 Run BitCoin image from DockerHub
 
 ```bash
-  docker pull medris2796/bitcoin-final-task
-  docker run -d -p 8000:5000 medris2796/bitcoin-final-task:latest
+  docker pull salehtaha/docker-final-task
+  docker run -d -p 8000:5000 salehtaha/docker-final-task:1.1
 ```
 <img width="932" alt="image" src="bitcoin.png">
 
@@ -70,8 +70,8 @@ Run BitCoin image from DockerHub
 Run Ynet image from DockerHub
 
 ```bash
-  docker pull medris2796/ynet
-  docker run -d -p 8082:5000 medris2796/ynet:latest
+  docker pull salehtaha/ynet-news
+  docker run -d -p 8082:5000 salehtaha/ynet-news:latest
 ```
 <img width="919" alt="image" src="ynet-news.png">
 
