@@ -31,9 +31,10 @@ metadata:
   labels:
     app: ynet
 spec:
+  selector:
+    app: ynet
   ports:
   - port: 8011
     targetPort: 8011
   type: ClusterIP
-  selector:
-    app: ynet
+  
